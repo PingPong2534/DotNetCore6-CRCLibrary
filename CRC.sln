@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{45CE8E7E-0515-4161-AF54-C9124B1E40D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRCLibrary", "CRCLibrary\CRCLibrary.csproj", "{D0F762D1-17DD-41C0-BC2B-9858AA38ABA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45CE8E7E-0515-4161-AF54-C9124B1E40D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45CE8E7E-0515-4161-AF54-C9124B1E40D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45CE8E7E-0515-4161-AF54-C9124B1E40D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45CE8E7E-0515-4161-AF54-C9124B1E40D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F762D1-17DD-41C0-BC2B-9858AA38ABA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F762D1-17DD-41C0-BC2B-9858AA38ABA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F762D1-17DD-41C0-BC2B-9858AA38ABA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F762D1-17DD-41C0-BC2B-9858AA38ABA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08702AC0-199F-4F99-981D-6B9A46711DE2}
+	EndGlobalSection
+EndGlobal
