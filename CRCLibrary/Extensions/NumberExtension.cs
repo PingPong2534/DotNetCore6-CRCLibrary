@@ -37,7 +37,7 @@
                 if (tempbyte != 0x0000)
                 {
                     // Insert a 1 in the left
-                    result = (ushort)(result | 0x80);
+                    result = (ushort)(result | 0x8000);
                 }
             }
 

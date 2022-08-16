@@ -1,10 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Test site https://crccalc.com/?crc=123456789&method=crc16&datatype=ascii&outtype=0
 using CRCLibrary;
 using CRCLibrary.Constants;
 
 var input = "123456789";
 
-Action<string, ushort> Write = (name, result) => Console.WriteLine($"{name.PadRight(20)}= 0x{result.ToString("x4").ToUpper()}");
+Action<string, ushort> Write = (name, result) => Console.WriteLine($"{name.Replace("_", "-").PadRight(20)}= 0x{result.ToString("x4").ToUpper()}");
 
 var crc16 = new CRC16();
 
